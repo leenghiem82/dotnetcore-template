@@ -1,0 +1,5 @@
+.openlayers-map {
+  height: 100vh;
+  width: 100%;
+  min-width: 399px;
+}

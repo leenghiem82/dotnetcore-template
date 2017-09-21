@@ -1,0 +1,24 @@
+{  
+  "author": "InfoTrack",
+  "classifications": [ "Web" ], 
+  "name": "InfoTrack Microservice Api",
+  "identity": "ApiDockerKibana.CSharp",         
+  "groupIdentity":"ApiDockerKibana",
+  "shortName": "infoapi", 
+  "tags": {
+    "language": "C#"    
+  },
+  "sourceName": "InfoTrack.Microservice.Sample",
+  "symbols":{
+    "copyrightName": {
+        "type": "parameter",
+        "defaultValue": "John Smith",
+        "replaces":"Sayed Ibrahim Hashimi"
+    },
+    "title": {
+        "type": "parameter",
+        "defaultValue": "Hello Web",
+        "replaces":"Sayed Web"
+    }  
+  }
+}

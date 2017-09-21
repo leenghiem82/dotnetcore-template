@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  consumermapit:
+    image: consumermapit
+    build:
+      context: ./ConsumerMapIT.Web
+      dockerfile: Dockerfile

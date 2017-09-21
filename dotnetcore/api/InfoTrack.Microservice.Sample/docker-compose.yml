@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  infotrack.microservice.sample:
+    image: infotrack.microservice.sample
+    build:
+      context: ./InfoTrack.Microservice.Sample.Api
+      dockerfile: Dockerfile
